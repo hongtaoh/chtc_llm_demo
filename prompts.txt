@@ -1,0 +1,5 @@
+Tell me a good story in 5 sentences.
+Give me 3 name ideas for a startup about Bayesian modeling.
+Explain the bias-variance tradeoff in one paragraph.
+Write a short haiku about Madison winter.
+Summarize why GPUs help for transformers.
