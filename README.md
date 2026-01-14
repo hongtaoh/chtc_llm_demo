@@ -2,6 +2,7 @@
 
 A minimal example project for running Large Language Model (LLM) inference on [CHTC GPU Lab](https://chtc.cs.wisc.edu/uw-research-computing/gpu-jobs#c-gpu-capacity-beyond-the-chtc-gpu-lab) at UW-Madison.
 
+
 ## Why This Project?
 
 CHTC's documentation is great, but setting up LLM inference involves several gotchas:
@@ -11,6 +12,15 @@ CHTC's documentation is great, but setting up LLM inference involves several got
 - Efficient environment management to avoid slow pip installs every job
 
 This project solves all of that with a clean, working setup.
+
+## Available GPUs
+
+Check available GPUs:
+
+```sh
+condor_status -constraint 'Gpus > 0 && State=="Unclaimed" && CUDACapability >= 9.0' \
+  -af Machine Name Gpus CUDAGlobalMemoryMb CUDACapability
+```
 
 ## Project Structure
 
@@ -42,7 +52,7 @@ Below, `USERNAME` mean yours username. Mine is `hhao9`.
 ```bash
 ssh USERNAME@ap2001.chtc.wisc.edu
 cd ~
-git clone <repo-url> llm
+git clone https://github.com/hongtaoh/chtc_llm_demo.git llm
 cd llm
 ```
 
