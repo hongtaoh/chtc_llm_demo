@@ -2,6 +2,11 @@
 
 A minimal example project for running Large Language Model (LLM) inference on [CHTC GPU Lab](https://chtc.cs.wisc.edu/uw-research-computing/gpu-jobs#c-gpu-capacity-beyond-the-chtc-gpu-lab) at UW-Madison.
 
+## Demo Video
+
+https://github.com/user-attachments/assets/64f00fa7-5c4c-44ac-93b8-0ce0e32ec567
+
+
 
 ## Why This Project?
 
