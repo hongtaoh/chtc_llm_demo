@@ -102,6 +102,12 @@ After setup, your staging directory should look like:
 bash run.sh
 ```
 
+To see the resources:
+
+```sh
+condor_q -better-analyze
+```
+
 ## Customization
 
 ### Use a different model

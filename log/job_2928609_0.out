@@ -1,7 +1,7 @@
 ========================================
-Host: gpu2004
-Date: Wed Jan 14 14:54:50 CST 2026
-CUDA_VISIBLE_DEVICES=GPU-31f81b3b-fa75-85ee-66f2-67e7fde1fc9e
+Host: gpu2010
+Date: Fri Jan 16 16:36:24 CST 2026
+CUDA_VISIBLE_DEVICES=GPU-0cc3c58b-8a0c-06ce-e533-e80af8727bec
 ========================================
 Extracting conda environment from staging...
 Extracting model from staging...
@@ -19,18 +19,18 @@ Device: cuda
 Model: ./Qwen-0.5B
 Loading tokenizer...
 Loading model...
-Model loaded in 2.10s
+Model loaded in 1.80s
 Found 5 prompts
 [1/5] Processing: Tell me a good story in 5 sentences....
-    Generated in 4.85s
+    Generated in 4.64s
 [2/5] Processing: Give me 3 name ideas for a startup about Bayesian ...
-    Generated in 2.82s
+    Generated in 2.69s
 [3/5] Processing: Explain the bias-variance tradeoff in one paragrap...
-    Generated in 4.13s
+    Generated in 3.87s
 [4/5] Processing: Write a short haiku about Madison winter....
-    Generated in 0.50s
+    Generated in 0.39s
 [5/5] Processing: Summarize why GPUs help for transformers....
-    Generated in 4.11s
-Done! Total time: 18.52s
+    Generated in 4.00s
+Done! Total time: 17.39s
 Output: responses/responses_local_0.txt
 Done!
